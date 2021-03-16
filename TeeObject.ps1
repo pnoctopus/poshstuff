@@ -1,0 +1,1 @@
+﻿Get-Process | Sort-Object -Descending | Select-Object -First 10 | Tee-Object -FilePath C:\Temp\PoShTest\Top10Procs.txt | Out-Printer "Microsoft Print to PDF"
